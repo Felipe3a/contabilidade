@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;}
+
+    
+.topo {
+   background-image: url("https://th.bing.com/th/id/R.caa8e6fe81cb547a9b20ef9e31d15840?rik=UkB4RaWHFaIE%2bA&riu=http%3a%2f%2felisabete-ribeiro.pt%2fwp-content%2fuploads%2f2017%2f02%2fslide-contabilidade-fundo.jpg&ehk=bvO3gaBIcFioLO0jyHXKObtGexR%2b7DHGFVkDaFETVrU%3d&risl=&pid=ImgRaw&r=0");
+    height: 95vh;
+
+    width: 100vw;}
+
+    .cabecalho {
+        padding: 38px;
+        padding-left: 35px;
+    
+    }
+
+    .titulo-cabecalho {
+        font-size: 40px;
+        color: #ffffff;
+        display: inline;
+    
+    }
+
+    
+    
+
+.link-cabecalho {
+    margin-left: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    display: inline;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link-cabecalho:hover{
+
+    opacity: 0.4;
+}
+
+
+.link-cabecalho:active{
+
+    
+    opacity: 0.9;
+}
+
+
+
+
+
+.nome {
+    color: #ffffff;
+    font-size: 50px;
+    position: inline;
+    padding-left: 35px;
+
+}
+
+
+
+
+.formulario {
+    visibility: hidden;
+    background: #ffffff;
+    border-radius: 10px;
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 70px;
+
+}
+
+
+.mostrar-formulario{
+    visibility: visible;
+    background: #ffffff;
+    border-radius: 10px;
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 70px;
+}
+
+
+
+
+.titulo-formulario {
+    font-size: 24px;
+    color: #252b42;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+input {
+    display: block;
+    border: px solid #e6e6e6;
+    border-radius: 5px;
+    height: 4px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+
+
+textarea {
+
+    display: block;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    height: 80px;
+    width: 250px;
+    margin-bottom: 20px;
+    background: #f9f9f9f9;
+    padding: 10px;
+}
+
+
+
+label {
+    font-size: 14px;
+    color: #252b42;
+}
+
+button {
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #40bb15;
+    color: #ffff;
+
+}
+
+button:hover {
+    opacity: 0.5;
+
+}
+
+button:active {
+
+    opacity: .9;
+}
+
+
+.caixa-central {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#titulo-meio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    color: #252b42;
+    text-align: center;
+}
+
+
+.titulo-card {
+background-image:url("https://th.bing.com/th/id/R.caa8e6fe81cb547a9b20ef9e31d15840?rik=UkB4RaWHFaIE%2bA&riu=http%3a%2f%2felisabete-ribeiro.pt%2fwp-content%2fuploads%2f2017%2f02%2fslide-contabilidade-fundo.jpg&ehk=bvO3gaBIcFioLO0jyHXKObtGexR%2b7DHGFVkDaFETVrU%3d&risl=&pid=ImgRaw&r=0") ;
+    color: #ffff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.card {
+
+    width: 300px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #a9d6ff;
+
+}
+
+ul {
+
+    padding: 20px;
+
+
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.caixa-inferior {
+
+
+    background-color: rgb(4, 2, 34);
+
+
+}
+
+#titulo-inferior {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.paragrafo-interior {
+    height: 100vh;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 50px 50px 50px;
+}

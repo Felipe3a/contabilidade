@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+    <title>FPS Contabilidade</title>
+</head>
+
+<body>
+
+    <div class="topo">
+
+
+        <div class="cabecalho">
+            <h2 class="titulo-cabecalho">FPS Contabilidade</h2>
+            <a  href="#titulo-inferior" class="link-cabecalho">Quem somos</a>
+            <a href="#titulo-meio" class="link-cabecalho">Serviços</a>
+            <a class="link-cabecalho" onclick="mostrarFormulario()">Contato</a>
+
+        </div>
+
+   
+
+        <form   class="formulario" id="formulario"  action="https://formsubmit.co/jabule3a@gmail.com" method="POST">
+
+       
+         
+            <h3 class="titulo-formulario">Entre em contato</h3>
+
+
+            <label>
+
+                Nome
+                <input type="text" name = "nome "placeholder="Digite seu nome" required />
+
+
+
+
+            </label>
+
+            <label>
+                E-mail
+                <input type="email" nome="email" placeholder="Digite seu e-mail" required>
+
+            </label>
+
+            <label for="">
+                WhatsApp
+                <input type="tel"  name="telefone" placeholder="Digite seu telefone"required>
+            </label>
+
+            <label>
+                Fale Conosco
+                <textarea name="info"  laceholder="Qual a sua duvida?" required ></textarea>
+            </label>
+
+            <button type="submit">Enviar</button>
+
+        
+
+        </form>
+
+
+        <h1 class="nome">FPS Contabilidade</h1>
+
+    </div>
+
+
+    <h2 id="titulo-meio">Nossos serviços</h2>
+
+
+    <div class="caixa-central">
+
+
+     
+
+
+
+
+
+        <div class="card">
+
+            <h3 class="titulo-card">Contabilidade completa</h3>
+            <ul>
+
+                <li>Imposto de Renda</li>
+                <li>Imposto de Renda</li>
+                <li>Imposto de Renda</li>
+                <li>Imposto de Renda</li>
+            </ul>
+
+
+        </div>
+
+        <div class="card">
+
+            <h3 class="titulo-card">Cuidamos do seu negocio</h3>
+                <ul>
+
+                    <li>Imposto de Renda</li>
+                    <li>Imposto de Renda</li>
+                    <li>Imposto de Renda</li>
+                    <li>Imposto de Renda</li>
+                </ul>
+        </div>
+
+        <div class="card" >
+            <h3 class="titulo-card">Cuidamos de voçê</h3>
+            <ul>
+
+                <li>Imposto de Renda</li>
+                <li>Imposto de Renda</li>
+                <li>Imposto de Renda</li>
+                <li>Imposto de Renda</li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <div class="caixa-inferior">
+
+
+        <h2  id="titulo-inferior">Sobre nós</h2>
+        <p class="paragrafo-interior">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Recusandae laborum corrupti delectus laudantium explicabo
+        possimus labore error vel ut atque
+        dignissimos porro temporibus nemo saepe vero eos cumque, autem similique
+        Lorem, ipsum dolor sit amet <br> consectetur adipisicing 
+        elit. Culpa eum, amet eius rerum provident minima! Ex totam blanditiis autem in, 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Asperiores necessitatibus tempora quibusdam eligendi voluptatibus quis, dolorem architecto quae quia,
+         minima, repellat reprehenderit adipisci sequi dolorum vero incidunt in ea amet.
+        quae voluptates optio perspiciatis delectus minima explicabo, quia, sapiente aspernatur.lorem.
+    
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, veniam ratione harum, esse, assumenda libero quia consequuntur aliquam reiciendis 
+    
+    suscipit incidunt exercitationem in sunt aliquid laborum laboriosam aut expedita dolore.
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint eum enim iure quo. Autem, corrupti? Enim eveniet, sapiente mollitia fugiat, accusantium a cupiditate suscipit porro blanditiis quaerat sed libero rem.</p>
+
+
+    </div>
+
+<script> 
+let formulario = document.getElementById("formulario")
+
+function mostrarFormulario(){
+
+formulario.className = "mostrar-formulario"
+
+}
+</script>
+
+</body>
+
+</html>
